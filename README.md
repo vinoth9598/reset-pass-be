@@ -22,6 +22,17 @@ FrontEnd Deployment Link-https://password-reset-up.netlify.app
 
 BackEnd github Link-  https://github.com/vinoth9598/password_reset_BE.git
 
-BackEnd Deployment Link-
+BackEnd Deployment Link-https://reset-pass-be.onrender.com
 
-Postman Documentation Link-
+Endpoint Api's:
+    GET-    http://reset-pass-be.onrender.com
+    
+    GET-    http://reset-pass-be.onrender.com/user/getAllUser
+    
+    POST-   http://reset-pass-be.onrender.com/user/signup
+    
+    POST-   http://reset-pass-be.onrender.com/user/login
+    
+    POST-   http://reset-pass-be.onrender.com/user/forget-password
+    
+    POST-   http://reset-pass-be.onrender.com/user/reset-password/:randomstring/:expitationTimeStamp

@@ -14,9 +14,8 @@ app.use(express.json());
 
 app.use('/',AppRouter);
 
-console.log(`${process.env.dbURL}`);
 try{
-    mongoose.connect(`${process.env.dbUrl}`);
+    mongoose.connect("mongodb+srv://pvinoth:vino9598@cluster0.k7wizfp.mongodb.net/password-reset");
     console.log("mongoose connected");
 }catch(error){
     console.log("error :",error)

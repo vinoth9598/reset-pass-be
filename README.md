@@ -18,7 +18,7 @@ USAGE OF ENDPOINTS:
 
 FrontEnd github Link-https://github.com/vinoth9598/reset_password_FE.git
 
-FrontEnd Deployment Link-https://password-reset-up.netlify.app
+FrontEnd Deployment Link-https://password-reset-f.netlify.app
 
 BackEnd github Link-  https://github.com/vinoth9598/password_reset_BE.git
 
